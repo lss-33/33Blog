@@ -1,8 +1,8 @@
 module.exports = {
   "title": "33",
   "description": "一个前端程序媛的博客",
-  // "base": '/blog/',
-  "dest": "docs/dist",
+  "base": '/lss-33.github.io/',
+  "dest": "docs/.vuepress/dist",
   "head": [
     [
       "link",
