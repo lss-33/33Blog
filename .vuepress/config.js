@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "Alice",
+  "title": "33",
   "description": "一个前端程序媛的博客",
   "dest": "public",
   "head": [
@@ -25,21 +25,6 @@ module.exports = {
         "text": "Home",
         "link": "/",
         "icon": "reco-home"
-      },
-      {
-        "text": "TimeLine",
-        "link": "/timeline/",
-        "icon": "reco-date"
-      },
-      {
-        "text": "Docs",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
       },
       {
         "text": "Contact",
