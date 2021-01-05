@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "blog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "33",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
@@ -10,5 +10,9 @@
     "vuepress": "1.7.1",
     "vuepress-theme-reco": "1.6.1"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "vuepress-plugin-cursor-effects": "^1.0.0",
+    "vuepress-plugin-dynamic-title": "^1.0.0"
+  }
 }

@@ -69,5 +69,25 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  "plugins": [
+    [
+      "cursor-effects",
+      {
+        size: 2,                    // size of the particle, default: 2
+        shape: ['circle'],  // shape of the particle, default: 'star'， 可选'circle'
+        zIndex: 999999999           // z-index property of the canvas, default: 999999999
+      }
+    ],
+    [
+      "dynamic-title",
+      {
+        showIcon: "/favicon.ico",
+        showText: "回来啦～",
+        hideIcon: "/failure.ico",
+        hideText: "回来吃柿子！",
+        recoverTime: 2000
+      }
+    ]
+  ]
 }
