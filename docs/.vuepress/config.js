@@ -2,7 +2,7 @@ module.exports = {
   "title": "33",
   "description": "一个前端程序媛的博客",
   // "base": '/blog/',
-  "dest": "docs/.vuepress/dist",
+  "dest": "docs/dist",
   "head": [
     [
       "link",
