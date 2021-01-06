@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "author": "33",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "vuepress": "1.7.1",
     "vuepress-theme-reco": "1.6.1"
   },
   "description": "",
+  "license": "ISC",
   "dependencies": {
     "vuepress-plugin-cursor-effects": "^1.0.0",
     "vuepress-plugin-dynamic-title": "^1.0.0"
