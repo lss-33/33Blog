@@ -1,5 +1,5 @@
 module.exports = {
-  "base":'/lss-33.github.io/'
+  "base":'/lss-33.github.io/',
   "title": "33",
   "description": "一个前端程序媛的博客",
   "dest": "docs/.vuepress/dist",
