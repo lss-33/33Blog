@@ -23,31 +23,37 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "主页",
         "link": "/",
         "icon": "reco-home"
       },
+      // {
+      //   "text": "博客",
+      //   "link": "/blogs/",
+      //   "icon": "reco-blog"
+        
+      // },
       {
-        "text": "Contact",
+        "text": "关于33",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
             "link": "https://github.com/lss-33",
             "icon": "reco-github"
+          },
+          {
+            "text":"33自我介绍",
+            "link":"../blogs/other/guide.md",
           }
         ]
       }
-    ],
+    ],   
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
-      },
-      "tag": {
-        "location": 3,
-        "text": "Tag"
+        "text": "博客"
       }
     },
     "friendLink": [
@@ -58,7 +64,7 @@ module.exports = {
         "link": "https://github.com/lss-33"
       }
     ],
-    "logo": "/logo.png",
+    "logo": "/avatar.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",

@@ -7,7 +7,7 @@ date: 2021-01-04
 
 ::: tip 介绍
 1. 这是基于vuepress+Travis CI+github pages搭建的个人博客
-3. 你可以打开 [33博客](https://lss-33.github.io/) 来查看效果。
+2. 你可以打开 [33博客](https://lss-33.github.io/) 来查看效果。
 :::
 ### 搭建专属自己的个人博客吧
 ::: tip 实现思路
