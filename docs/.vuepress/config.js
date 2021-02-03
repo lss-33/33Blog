@@ -1,7 +1,7 @@
 module.exports = {
   "base":'/lss-33.github.io/',
   "title": "33",
-  "description": "一个前端程序媛的博客",
+  "description": "从来都不相信刚刚好，只相信大力出奇迹。",
   "dest": "docs/.vuepress/dist",
   "head": [
     [
@@ -27,12 +27,22 @@ module.exports = {
         "link": "/",
         "icon": "reco-home"
       },
-      // {
-      //   "text": "博客",
-      //   "link": "/blogs/",
-      //   "icon": "reco-blog"
-        
-      // },
+      {
+        "text": "题外",
+        "icon": "reco-blog",
+        "items":[
+          {
+            "text":"33知识体系",
+            "link": "../blogs/other/20210129.md",
+            "icon": "reco-blog"
+          },
+          {
+            "text":"33TODO",
+            "link": "../blogs/other/TODO.md",
+            "icon": "reco-blog"
+          },
+        ]
+      },
       {
         "text": "关于33",
         "icon": "reco-message",
@@ -45,6 +55,7 @@ module.exports = {
           {
             "text":"33自我介绍",
             "link":"../blogs/other/guide.md",
+            "icon": "reco-blog"
           }
         ]
       }
@@ -71,7 +82,7 @@ module.exports = {
     "author": "33",
     "authorAvatar": "/avatar.png",
     "record": "前端相关",
-    "startYear": "2020"
+    "startYear": "2020",
   },
   "markdown": {
     "lineNumbers": true
@@ -80,9 +91,9 @@ module.exports = {
     [
       "cursor-effects",
       {
-        size: 2,                    // size of the particle, default: 2
-        shape: ['circle'],  // shape of the particle, default: 'star'， 可选'circle'
-        zIndex: 999999999           // z-index property of the canvas, default: 999999999
+        size: 3,                    
+        shape: ['circle'], 
+        zIndex: 999999999
       }
     ],
     [
