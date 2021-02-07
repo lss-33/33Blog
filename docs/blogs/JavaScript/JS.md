@@ -1,5 +1,5 @@
 ---
-title: 聊聊JavaScript基础
+title: :blue_heart:JavaScript基础
 date: 2021-02-01
 tags:
  - JavaScript
