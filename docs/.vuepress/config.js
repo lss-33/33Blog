@@ -1,7 +1,7 @@
 module.exports = {
   "base":'/lss-33.github.io/',
   "title": "33",
-  "description": "从来都不相信刚刚好，只相信大力出奇迹。",
+  "description": "大力出奇迹。",
   "dest": "docs/.vuepress/dist",
   "head": [
     [
@@ -51,6 +51,16 @@ module.exports = {
             "text": "GitHub",
             "link": "https://github.com/lss-33",
             "icon": "reco-github"
+          },
+          {
+            "text": "CSDN",
+            "link": "https://blog.csdn.net/weixin_46254175?t=1",
+            "icon": "reco-blog"
+          },
+          {
+            "text": "CodePen",
+            "link": "https://codepen.io/lss-33",
+            "icon": "reco-blog"
           },
           {
             "text":"33自我介绍",
